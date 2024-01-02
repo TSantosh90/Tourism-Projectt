@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 1em;
+            margin: 1em;
+            background-color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Tourism Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#tours">Tours</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Our Tourism Website</h2>
+        <p>Explore the beauty of amazing destinations around the world.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Featured Destinations</h2>
+        <div>
+            <img src="destination1.jpg" alt="Destination 1">
+            <p>Description of Destination 1.</p>
+        </div>
+        <div>
+            <img src="destination2.jpg" alt="Destination 2">
+            <p>Description of Destination 2.</p>
+        </div>
+        <!-- Add more destinations as needed -->
+    </section>
+
+    <section id="tours">
+        <h2>Popular Tours</h2>
+        <ul>
+            <li>Tour 1: Explore Nature</li>
+            <li>Tour 2: Cultural Adventure</li>
+            <li>Tour 3: Urban Exploration</li>
+            <!-- Add more tours as needed -->
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tourism Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
